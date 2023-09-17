@@ -1,2 +1,2 @@
-# Template
-Template for abapGit CI Tests
+# CMPT
+CMPT Code Composer Template
