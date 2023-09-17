@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CMPT" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <CMPT>
+    <STR_HEADER>
+     <NAME>ZABAPGIT_TEST</NAME>
+     <VERSION>A</VERSION>
+     <CHANGED_ON>2023-09-17</CHANGED_ON>
+     <CHANGED_BY>DEVELOPER</CHANGED_BY>
+     <CHANGED_TS>20230917083845</CHANGED_TS>
+    </STR_HEADER>
+    <TAB_LINES>
+     <item>CLASS $class_name$ DEFINITION.</item>
+     <item>  PUBLIC SECTION.</item>
+     <item>    @table $attributes$ @line $attribute$</item>
+     <item>      DATA $attribute-name$ TYPE $attribute-type$</item>
+     <item>      @if $attribute-read_only$ X</item>
+     <item>        READ-ONLY</item>
+     <item>      @end .</item>
+     <item>    @end .</item>
+     <item>ENDCLASS.</item>
+    </TAB_LINES>
+   </CMPT>
+  </asx:values>
+ </asx:abap>
+</abapGit>
