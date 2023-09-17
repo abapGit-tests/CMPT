@@ -4,11 +4,7 @@
   <asx:values>
    <CMPT>
     <STR_HEADER>
-     <NAME>ZABAPGIT_TEST</NAME>
-     <VERSION>A</VERSION>
-     <CHANGED_ON>2023-09-17</CHANGED_ON>
-     <CHANGED_BY>DEVELOPER</CHANGED_BY>
-     <CHANGED_TS>20230917083845</CHANGED_TS>
+     <DESCRIPTION>abapGit Test Template</DESCRIPTION>
     </STR_HEADER>
     <TAB_LINES>
      <item>CLASS $class_name$ DEFINITION.</item>
